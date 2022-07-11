@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.counatainer {
+    max-width: 1920px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.form {
+    width: 700px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.block_left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.block_right {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.input_post {
+    width: 250px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.main {
+    width: 900px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.main_top {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_top div {
+    width: 225px;
+}
+
+.numer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.year_studnet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_top span {
+    font-weight: 600;
+    color: gray;
+    font-size: 18px;
+}
+
+.block_items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.block_number, .block_name, .block_year, .block_actions {
+    display: flex;
+    width: 225px;
+}
+
+.block_year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_actions {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.block_img {
+    display: flex;
+    gap: 25px;
+}
+
+.block_img img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.text_span, .text_lenght {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.modal_bg {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(30px);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: none;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.modal_count {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    z-index: 20;
+    top: -250%;
+    left: 50%;
+    background: linear-gradient(84.37deg, #20BF55 2.27%, #01BAEF 92.26%);
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease;
+}
+
+.change_item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+
+.change_item input {
+    width: 200px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.new_btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+

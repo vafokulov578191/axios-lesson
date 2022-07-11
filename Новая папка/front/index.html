@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="counatainer">
+            <div class="logo">
+                <h1>добавление, изменение и удаление элемента из таблицы</h1>
+            </div>
+            <form class="form" action="" name="task">
+                <div class="block_left">
+                    <span class="text">Имя</span>
+                    <input class="input_post" type="text" name="name" placeholder="Name">
+                </div>
+                <div class="block_right">
+                    <span class="text">Возврост</span>
+                    <input class="input_post" type="text" name="year" placeholder="Year">
+                </div>
+                <button class="btn">Добавить</button>
+            </form>
+
+            <div class="main">
+                <div class="main_top">
+                    <div class="numer">
+                        <span>No</span>
+                    </div>
+                    <div class="name_student">
+                        <span>Имя студента</span>
+                    </div>
+                    <div class="year_studnet">
+                        <span>Год рождения</span>
+                    </div>
+                    <div class="actions">
+                        <span>Действия</span>
+                    </div>
+                </div>
+
+                <div class="block_items"></div>
+            </div>
+
+            <div class="modal_bg"></div>
+            <div class="modal_count">
+                <form class="change_item" action="" name="change">
+                    <input class="new_name" type="text" name="name" placeholder="Name">
+                    <input class="new_year" type="text" name="year" placeholder="Year">
+                    <button class="new_btn">Изменить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
